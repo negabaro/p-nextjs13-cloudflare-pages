@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Publish
         run: CLOUDFLARE_ACCOUNT_ID=dcad7b109985c6d198cf1b5bf3632076 CLOUDFLARE_API_TOKEN=${{ secrets.CLOUDFLARE_API_TOKEN }} npx wrangler pages publish .vercel/output/static  --project-name=p-nextjs13-cloudflare-pages
-        uses: cloudflare/wrangler-action@2.0.0
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        # uses: cloudflare/wrangler-action@2.0.0
+        # with:
+        #   apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 #on: [push]
 #jobs:
 #  deploy:
