@@ -18,5 +18,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'p-nextjs13-cloudflare-pages' # e.g. 'my-project'
-          directory: '/.vercel/output/static' # e.g. 'dist'
+          directory: './.next' # e.g. 'dist'
           gitHubToken: ${{ secrets.MY_GITHUB_TOKEN }}
