@@ -1,14 +1,16 @@
 # Next.js Edge Runtime + Cloudflare Pages
 
 
-目的 nextjs13をcloudflare pagesにデプロイする
+## 目的 
+
+nextjs13をcloudflare pagesにデプロイする
 
 方法は二つあって
 githubリポジトリー連携機能を利用するのとwrangler cliを利用して実行する方法がある
 
 このリポジトリでは後者の方法でデプロイしてる
 
-### 手順
+## 手順
 
 ### build
 デプロイ時、next-on-pagesこのパッケージを利用するので
